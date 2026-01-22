@@ -1,6 +1,8 @@
 package postgres
 
-import "database/sql"
+import (
+	"database/sql"
+)
 
 type Store struct {
 	db *sql.DB
